@@ -1,0 +1,4 @@
+[setting]
+gsettings set org.gnome.desktop.interface scaling-factor 2
+[resetting]
+gsettings reset org.gnome.desktop.interface scaling-factor
