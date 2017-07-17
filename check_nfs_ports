@@ -1,0 +1,4 @@
+[check]
+rpcinfo -p
+[tcpdump]
+tcpdump -nn host "host_IP"
