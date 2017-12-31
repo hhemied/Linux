@@ -1,0 +1,8 @@
+or all openstack releases you can simply follow these steps:
+1 - add ICMP to your security group to allow ingress icmp
+2 - ip netns show <--- show you your network namespaces
+3 - find the namespce wich has the name of router like (qrouter-eeb0117c-d9e8-4b3b-b9bf-12f00c5f1c97)
+4 - find instance internal ip
+** source keystone_admin
+** openstack server list
+5 - ip netns exec [the router name as above] ping [instance's IP]
