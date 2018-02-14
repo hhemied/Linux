@@ -1,5 +1,6 @@
 [fedora]
 sudo dnf update
 
+
 [RHEL]
 yum update
