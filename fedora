@@ -2,3 +2,6 @@ https://getfedora.org
 
 [latest]
 fedora 27
+
+[based]
+RPM
