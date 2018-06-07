@@ -5,3 +5,6 @@ yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarc
 reposync --repoid=epel --download_path=/var/www/html/epel
 restorecon -r /var/www/html
 systemctl restart httpd
+# for creating the repo resolvable from any client
+cd /var/www/html/epel/epel/
+createrepo -v .
